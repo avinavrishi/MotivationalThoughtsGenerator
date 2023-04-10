@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Motivational Thought Generator",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_security_policy": "script-src 'self' https://code.jquery.com; object-src 'self'",
+  "web_accessible_resources": [
+    "index.html",
+    "index.js"
+  ]
+}
